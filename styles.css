@@ -1,0 +1,61 @@
+.alien_button {
+    background-color: aquamarine;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.text_button {
+    margin-right: 30px;
+}
+
+#alien_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+
+#email {
+    color: rgb(0, 255, 255);
+    font-size: small;
+}
+
+#title-section {
+
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+
+}
+
+#about-section{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#images-container {
+    display: flex;
+
+}
+
+.about-box{
+    margin-right: 1%;
+}
+
+.image-box{
+    width: 150px;
+    height:150px;
+    background-size: contain;
+}
