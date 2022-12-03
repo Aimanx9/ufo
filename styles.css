@@ -11,7 +11,7 @@
 .text_button {
     margin-right: 30px;
 }
-
+/* flex box */
 #alien_buttons {
     display: flex;
     flex-direction: row;
